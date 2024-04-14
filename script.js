@@ -10,6 +10,6 @@ btnRight.addEventListener('click', function() {
 
 btnLeft.addEventListener('click', function() {
     images[counter].style.display = 'none';
-    counter = (counter - 1 + images.length) % images.length;
+    counter = counter - 1 + images.length
     images[counter].style.display = 'block';
 });
